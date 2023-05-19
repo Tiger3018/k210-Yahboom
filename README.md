@@ -54,7 +54,7 @@ ValLoss = .37415, ValAcc = .91667
 4. [50628](./model-50628.kmodel)
 
 ```sh
-+ mirror, + rotation, - blur, <fill>, 224, 224, Avg = 123.5, Std = 58.395
++ mirror, + rotation, - blur, <contain>, 224, 224, Avg = 123.5, Std = 58.395
 mobilenet_0.5
 Epoches = 100, Batch = 128, Rate = .001, + data_balance
 ValLoss = .66497, ValAcc = .70833
